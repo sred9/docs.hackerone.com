@@ -52,12 +52,3 @@ exports.createPages = ({ graphql, actions }) => {
     });
   });
 };
-
-// gatsby-node.js
-exports.createSchemaCustomization = ({ actions }) => {
-  actions.createTypes(`
-    type SitePage implements Node @dontInfer {
-      path: String!
-    }
-  `)
-}

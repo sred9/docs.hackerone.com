@@ -19,11 +19,13 @@ $sidebar-tablet-width: 160px;
 
 .sidebar__wrapper {
   background-color: $daisy-snow;
-  height: calc(100vh - 60px);
+  /*height: calc(100vh - 60px);*/
+  height: auto;
   overflow-y: auto;
   display: flex;
   flex: 1;
-  position: fixed;
+  /*position: fixed;*/
+  position: relative;
 }
 
 .sidebar__body {

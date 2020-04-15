@@ -14,7 +14,8 @@
   display: inline-block;
   padding: 0 16px;
   border-bottom: 3px solid transparent;
-  line-height: 57px;
+  /*line-height: 48px;*/
+  line-height: 40px;
   color: $daisy-white;
   text-decoration: none;
 
@@ -25,7 +26,9 @@
 
   &--active {
     background-color: $daisy-zambezi;
-    border-bottom-color: $daisy-pink;
+    /*border-bottom-color: $daisy-pink;*/
+	border-bottom: 0px transparent;
+	border-radius: 3px;
 
     &:hover {
       color: $daisy-white;
