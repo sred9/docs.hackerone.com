@@ -54,12 +54,3 @@
     "slugify": "^1.3.4"
   }
 }
-
-{
-  "devDependencies": {
-    "cross-env": "^5.2.0"
-  },
-  "scripts": {
-    "build": "cross-env GATSBY_DB_NODES=loki gatsby build"
-  }
-}
